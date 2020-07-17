@@ -63,7 +63,7 @@ p {
 	background-color: crimson;
 }
 .brand h1 {
-	font-size: 3rem;
+	font-size: 2.75rem;
 	text-transform: uppercase;
 	color: white;
 }
@@ -566,6 +566,7 @@ form{
 	letter-spacing: .1rem;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 #footer .social-icon {
 	display: flex;
