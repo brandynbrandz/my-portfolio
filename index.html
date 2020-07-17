@@ -264,58 +264,61 @@
   <!-- End Contact Section -->
 
     <!-- Start of contact form -->
-  <!-- <section id="contact">
+  <section id="contact">
     <div class="contact container">
       <div><h1 class="section-title">DIRECT <span>CONTACT</span></h1></div>
       <div class="contact-items">
-        <form method="post" action="contact-form-handler.php"> -->
+        <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
           
           <!-- Label full name -->
-          <!-- <h2>
+          <h2>
           <label>Full Name:</label>
-          </h2> -->
+          </h2>
           <!-- Full Name Input-->
-         <!--  <input type="text" class="form-control" name="name" required="required">
-
-          <br> -->
-
-          <!-- Label Phone Number -->
-          <!-- <h2>
-          <label>Phone Number:</label>
-          </h2> -->
-          <!-- Phone Number Input-->
-         <!--  <input type="text" class="form-control" name="number">
+          <input type="text" class="form-control" name="name" required="required">
 
           <br>
 
-          Label Email Address
+          <!-- Label Phone Number -->
+          <h2>
+          <label>Phone Number:</label>
+          </h2>
+          <!-- Phone Number Input-->
+          <input type="text" class="form-control" name="number">
+
+          <br>
+
+          <!-- Label Email Address -->
           <h2>
           <label>Email Address:</label>
           </h2>
- -->
+
           <!-- Email Address Input-->
-          <!-- <input type="text" class="form-control" name="email" required="required">
+          <input type="text" class="form-control" name="email" required="required">
 
           <br>
- -->
+
           <!-- Label Message -->
-         <!--  <h2>
-          <label>Message:</label>
-          </h2> -->
+         
+
 
           <!-- Message Input-->
-        <!--   <textarea rows=10px cols=35px class="form-control" placeholder="Type meassage here" name="message" required="required" style="font-size: 1.7rem"></textarea>
+          <textarea rows=10px cols=35px class="form-control" placeholder="Type meassage here" name="message" required="required" style="font-size: 1.7rem"></textarea>
 
-          <br> -->
-
+          <br>
+          <div>
+            <input type="file" name="my file" id="myfile" placeholder="Upload File" rows="7" />
+          </div>
+          <!-- Recaptcha -->
+          <div data-netlify-recaptcha="true"></div>
           <!-- Submit button-->
-          <!-- <button type="Submit" class="submitbutton">Send Message</button>
+          <button type="Submit" class="btn btn-primary">Send Message</button>
 
         </form>
       </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <!-- Footer -->
   <section id="footer">
