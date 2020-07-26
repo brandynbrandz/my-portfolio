@@ -276,6 +276,10 @@ p {
 /* End Header section */
 
 /* Hero Section */
+#hero.lazy {
+   background-image: none;
+   background-color: #F1F1FA;
+}
 #hero {
 	background-image: url(./img/up-2.jpg);
 	background-size: cover;
