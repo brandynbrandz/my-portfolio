@@ -32,6 +32,7 @@ p {
 	font-weight: 300;
 	letter-spacing: .05rem;
 }
+
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
@@ -566,6 +567,7 @@ p {
 	border-radius: 10px;
 	padding: 30px;
 	margin: 30px;
+	margin-left: 70px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -593,11 +595,11 @@ p {
 }
 #contact .contact-items {
 	position: relative;
-	width: 100%;
+	/*width: 100%;*/
 	display: grid;
 	padding: 0 10px;
 	grid-auto-columns: repeat(autofit,minimax(300px,1fr));
-	margin-right: 70px;
+	margin-right: 60px;
 }
 #contact .contact-items .col{
 	position: relative;
@@ -692,18 +694,13 @@ p {
 	height: 100%;
 	
 }
-/*#contact .con {
-	width: 30px;
-	margin: 10px;
-	margin-bottom: 10px;
-	position: relative;
-}*/
+
 /*End contact Section */
 
 /*Direct Message Page*/
 
 form{
-	margin-left: 25px;
+	margin-left: 35px;
 }
 
 .form-control {
