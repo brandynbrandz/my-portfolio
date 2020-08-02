@@ -988,7 +988,6 @@ form{
 	margin-right: 10px;
 	}
 }
-/* Small Phone */
 @media only screen and (max-width: 500px) {
 	#back-to-top-btn {
     font-size: 18px;
@@ -996,5 +995,25 @@ form{
     height: 32px;
     bottom: 6px;
     right: 1px;
+	}
+	.form-control {
+	    width: 261px;
+	}
+	form {
+    	width: 303px;
+    	margin-left: 0px;
+	}
+	#contact .contact-item {
+		width: 267px;
+		margin-left: 0;
+	}
+	#contact .contact-items {
+		width: 309px;
+		margin-right: 0;
+	}
+	.brand h1 {
+    font-size: 1.74rem;
+    text-transform: uppercase;
+    color: white;
 	}
 }
