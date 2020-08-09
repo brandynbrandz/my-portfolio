@@ -17,6 +17,8 @@ document.addEventListener('scroll', () => {
 	}
 });
 
+var lazyload= function () {};
+
 document.addEventListener("DOMContentLoaded", function() {
   var lazyloadImages;    
 
@@ -39,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var lazyloadThrottleTimeout;
     lazyloadImages = document.querySelectorAll(".lazy");
     
-    function lazyload () {
+    lazyload = function () {
       if(lazyloadThrottleTimeout) {
         clearTimeout(lazyloadThrottleTimeout);
       }    
@@ -58,13 +60,13 @@ document.addEventListener("DOMContentLoaded", function() {
           window.removeEventListener("orientationChange", lazyload);
         }
       }, 20);
-    }
+    };
 
     document.addEventListener("scroll", lazyload);
     window.addEventListener("resize", lazyload);
     window.addEventListener("orientationChange", lazyload);
   }
-})
+});
 
 
 menu_item.forEach((item) => {
@@ -125,4 +127,4 @@ function easeInOutCubic(t, b, c, d) {
 	if (t < 1) return c/2*t*t*t + b;
 	t -= 2;
 	return c/2*(t*t*t + 2) + b;
-};
+}
