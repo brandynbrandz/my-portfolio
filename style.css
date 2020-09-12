@@ -1,3 +1,4 @@
+
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
 * {
 	padding: 0;
@@ -907,6 +908,9 @@ form{
 	border-radius: .25rem;
 	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+.text::after {
+	content: ' *';
+}
 
 /* Footer */
 #footer {
@@ -1187,3 +1191,7 @@ form{
 	height: 30px;
 	}
 }
+
+
+
+/**/
