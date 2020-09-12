@@ -534,6 +534,7 @@ p {
 }
 #projects .project-img {
 	flex-basis: 50%;
+	width: 100%;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
@@ -550,6 +551,7 @@ p {
 }
 #projects .project-img img {
 	transition: .3s ease transform;
+
 }
 #projects .project-item:hover .project-img img {
 	transform: scale(1.1);
@@ -988,7 +990,7 @@ form{
 /* End Keyframes */
 
 /* Media Query For Tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 789px) {
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
